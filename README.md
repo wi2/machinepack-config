@@ -8,7 +8,7 @@
 A simple load config
 
 
-## Installation &nbsp; [![NPM version](https://badge.fury.io/js/machinepack-config.svg)](http://badge.fury.io/js/machinepack-config) [![Build Status](https://travis-ci.org/mikermcneil/machinepack-config.png?branch=master)](https://travis-ci.org/mikermcneil/machinepack-config)
+## Installation &nbsp; [![NPM version](https://badge.fury.io/js/machinepack-config.svg)](http://badge.fury.io/js/machinepack-config) [![Build Status](https://travis-ci.org/wi2/machinepack-config.png?branch=master)](https://travis-ci.org/wi2/machinepack-config)
 
 ```sh
 $ npm install machinepack-config
