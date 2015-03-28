@@ -1,0 +1,13 @@
+{
+  "multiple": [
+    {
+      "merge": true,
+      "name":"conf1",
+      "path": ["tests/*.json"]
+    }, {
+      "merge": false,
+      "name":"conf2",
+      "path": ["tests/*.json"]
+    }
+  ]
+}

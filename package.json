@@ -1,0 +1,39 @@
+{
+  "name": "machinepack-config",
+  "version": "0.1.0",
+  "description": "A simple load config",
+  "scripts": {
+    "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
+  },
+  "keywords": [
+    "Config",
+    "machines",
+    "machinepack"
+  ],
+  "author": "wi2",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^3.6.0",
+    "machine": "^3.0.0",
+    "vinyl-fs": "^1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.1",
+    "should": "^5.2.0",
+    "test-machinepack-mocha": "^0.2.2"
+  },
+  "machinepack": {
+    "friendlyName": "Config",
+    "machineDir": "machines/",
+    "machines": [
+      "get",
+      "multiple",
+      "load"
+    ],
+    "testsUrl": "https://travis-ci.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wi2/machinepack-config.git"
+  }
+}

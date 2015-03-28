@@ -1,0 +1,11 @@
+{
+  "machine": "get",
+  "expectations": [
+    {
+      "using": {
+      	"path": "tests/get.json"
+      },
+      "outcome": "success"
+    }
+  ]
+}
