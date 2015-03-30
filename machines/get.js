@@ -6,8 +6,7 @@ module.exports = {
   description: 'Get simply a config with few json file',
   extendedDescription: 'For example, see tests/test.js (mocha tests/test.js)',
 
-  cacheable: false,
-
+  // cacheable: true,
 
   inputs: {
     path: {
@@ -34,10 +33,8 @@ module.exports = {
   },
 
   fn: function (inputs,exits) {
-    var h = require('../lib/helper.js');
-
-    h.getFiles(inputs.path, inputs.merge||false, exits.success);
-
+    require('../lib/helper.js')
+      .getFiles(inputs.path, inputs.merge||false, exits.success);
   },
 
 };

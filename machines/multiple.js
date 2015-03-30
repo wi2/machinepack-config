@@ -4,6 +4,8 @@ module.exports = {
   description: 'Get a multiple config with define some key',
   extendedDescription: 'For example, see tests/test.js (mocha tests/test.js)',
 
+  // cacheable: true,
+
   inputs: {
     schema: {
       typeclass: '*',
@@ -24,9 +26,8 @@ module.exports = {
   },
 
   fn: function (inputs,exits) {
-    var h = require('../lib/helper.js');
-
-    h.iterate(inputs.schema, {}, exits.success);
+    require('../lib/helper.js')
+      .iterate(inputs.schema, {}, exits.success);
   },
 
 };

@@ -1,6 +1,6 @@
-var should = require('should');
-var conf = require("../index.js");
-var h = require("../lib/helper.js");
+var should = require('should')
+  , conf = require("../index.js")
+  , h = require("../lib/helper.js");
 
 
 describe('Helper', function(){
@@ -73,3 +73,4 @@ describe('load', function(){
      });
   });
 });
+

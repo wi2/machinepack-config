@@ -25,10 +25,11 @@ module.exports = {
   },
 
   fn: function (inputs,exits) {
-    var get = require('machine').build(require('./get'));
+    var machine = require('machine');
+    var get = machine.build(require('./get'));
     get({path:inputs.path, merge:true}).exec(function(err, data){
       if(data.multiple){
-        var multiple = require('machine').build(require('./multiple'));
+        var multiple = machine.build(require('./multiple'));
         multiple({schema: data.multiple}).exec(function(err, result){
           return exits.success(result);
         });
