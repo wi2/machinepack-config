@@ -1,9 +1,9 @@
 {
   "name": "machinepack-config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple load config",
   "scripts": {
-    "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
+    "test": "mocha tests/test.js"
   },
   "keywords": [
     "Config",
