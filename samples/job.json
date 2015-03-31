@@ -1,0 +1,301 @@
+[{
+  "job": "Administrative Officer",
+  "id": 1
+}, {
+  "job": "Quality Control Specialist",
+  "id": 2
+}, {
+  "job": "Automation Specialist I",
+  "id": 3
+}, {
+  "job": "Operator",
+  "id": 4
+}, {
+  "job": "Project Manager",
+  "id": 5
+}, {
+  "job": "Senior Financial Analyst",
+  "id": 6
+}, {
+  "job": "Software Engineer IV",
+  "id": 7
+}, {
+  "job": "Senior Editor",
+  "id": 8
+}, {
+  "job": "Staff Accountant II",
+  "id": 9
+}, {
+  "job": "Office Assistant I",
+  "id": 10
+}, {
+  "job": "Systems Administrator II",
+  "id": 11
+}, {
+  "job": "Clinical Specialist",
+  "id": 12
+}, {
+  "job": "Staff Accountant I",
+  "id": 13
+}, {
+  "job": "Software Engineer I",
+  "id": 14
+}, {
+  "job": "Operator",
+  "id": 15
+}, {
+  "job": "Nurse Practicioner",
+  "id": 16
+}, {
+  "job": "Graphic Designer",
+  "id": 17
+}, {
+  "job": "Sales Representative",
+  "id": 18
+}, {
+  "job": "Environmental Specialist",
+  "id": 19
+}, {
+  "job": "Editor",
+  "id": 20
+}, {
+  "job": "Teacher",
+  "id": 21
+}, {
+  "job": "Safety Technician IV",
+  "id": 22
+}, {
+  "job": "Actuary",
+  "id": 23
+}, {
+  "job": "Graphic Designer",
+  "id": 24
+}, {
+  "job": "Payment Adjustment Coordinator",
+  "id": 25
+}, {
+  "job": "Mechanical Systems Engineer",
+  "id": 26
+}, {
+  "job": "Sales Associate",
+  "id": 27
+}, {
+  "job": "Automation Specialist III",
+  "id": 28
+}, {
+  "job": "Senior Sales Associate",
+  "id": 29
+}, {
+  "job": "Account Coordinator",
+  "id": 30
+}, {
+  "job": "Staff Scientist",
+  "id": 31
+}, {
+  "job": "Assistant Professor",
+  "id": 32
+}, {
+  "job": "Nuclear Power Engineer",
+  "id": 33
+}, {
+  "job": "Business Systems Development Analyst",
+  "id": 34
+}, {
+  "job": "Research Nurse",
+  "id": 35
+}, {
+  "job": "Marketing Assistant",
+  "id": 36
+}, {
+  "job": "Clinical Specialist",
+  "id": 37
+}, {
+  "job": "Associate Professor",
+  "id": 38
+}, {
+  "job": "Senior Sales Associate",
+  "id": 39
+}, {
+  "job": "Legal Assistant",
+  "id": 40
+}, {
+  "job": "Sales Representative",
+  "id": 41
+}, {
+  "job": "Web Developer II",
+  "id": 42
+}, {
+  "job": "Editor",
+  "id": 43
+}, {
+  "job": "Financial Advisor",
+  "id": 44
+}, {
+  "job": "Nuclear Power Engineer",
+  "id": 45
+}, {
+  "job": "Staff Scientist",
+  "id": 46
+}, {
+  "job": "Chemical Engineer",
+  "id": 47
+}, {
+  "job": "Senior Developer",
+  "id": 48
+}, {
+  "job": "Geological Engineer",
+  "id": 49
+}, {
+  "job": "Nurse Practicioner",
+  "id": 50
+}, {
+  "job": "Librarian",
+  "id": 51
+}, {
+  "job": "Payment Adjustment Coordinator",
+  "id": 52
+}, {
+  "job": "Data Coordiator",
+  "id": 53
+}, {
+  "job": "Senior Sales Associate",
+  "id": 54
+}, {
+  "job": "Database Administrator I",
+  "id": 55
+}, {
+  "job": "Director of Sales",
+  "id": 56
+}, {
+  "job": "Operator",
+  "id": 57
+}, {
+  "job": "Health Coach IV",
+  "id": 58
+}, {
+  "job": "Automation Specialist IV",
+  "id": 59
+}, {
+  "job": "VP Accounting",
+  "id": 60
+}, {
+  "job": "Payment Adjustment Coordinator",
+  "id": 61
+}, {
+  "job": "Automation Specialist IV",
+  "id": 62
+}, {
+  "job": "Assistant Manager",
+  "id": 63
+}, {
+  "job": "Registered Nurse",
+  "id": 64
+}, {
+  "job": "VP Sales",
+  "id": 65
+}, {
+  "job": "Computer Systems Analyst III",
+  "id": 66
+}, {
+  "job": "Assistant Media Planner",
+  "id": 67
+}, {
+  "job": "Programmer II",
+  "id": 68
+}, {
+  "job": "Database Administrator II",
+  "id": 69
+}, {
+  "job": "Environmental Specialist",
+  "id": 70
+}, {
+  "job": "Geologist I",
+  "id": 71
+}, {
+  "job": "Teacher",
+  "id": 72
+}, {
+  "job": "Engineer II",
+  "id": 73
+}, {
+  "job": "Quality Control Specialist",
+  "id": 74
+}, {
+  "job": "Software Test Engineer IV",
+  "id": 75
+}, {
+  "job": "Senior Cost Accountant",
+  "id": 76
+}, {
+  "job": "Analyst Programmer",
+  "id": 77
+}, {
+  "job": "Actuary",
+  "id": 78
+}, {
+  "job": "VP Marketing",
+  "id": 79
+}, {
+  "job": "VP Sales",
+  "id": 80
+}, {
+  "job": "Structural Analysis Engineer",
+  "id": 81
+}, {
+  "job": "Senior Cost Accountant",
+  "id": 82
+}, {
+  "job": "Statistician II",
+  "id": 83
+}, {
+  "job": "Developer I",
+  "id": 84
+}, {
+  "job": "VP Quality Control",
+  "id": 85
+}, {
+  "job": "Human Resources Manager",
+  "id": 86
+}, {
+  "job": "Senior Sales Associate",
+  "id": 87
+}, {
+  "job": "Mechanical Systems Engineer",
+  "id": 88
+}, {
+  "job": "Editor",
+  "id": 89
+}, {
+  "job": "GIS Technical Architect",
+  "id": 90
+}, {
+  "job": "Geological Engineer",
+  "id": 91
+}, {
+  "job": "Occupational Therapist",
+  "id": 92
+}, {
+  "job": "Statistician III",
+  "id": 93
+}, {
+  "job": "Health Coach II",
+  "id": 94
+}, {
+  "job": "VP Quality Control",
+  "id": 95
+}, {
+  "job": "Business Systems Development Analyst",
+  "id": 96
+}, {
+  "job": "Mechanical Systems Engineer",
+  "id": 97
+}, {
+  "job": "Human Resources Manager",
+  "id": 98
+}, {
+  "job": "Structural Engineer",
+  "id": 99
+}, {
+  "job": "VP Accounting",
+  "id": 100
+}]

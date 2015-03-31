@@ -1,6 +1,0 @@
-{
-  "utf8": "ok",
-  "bla": true,
-  "zap": "ok",
-  "flat": ["ok",false, {"name":"Mike"} ]
-}

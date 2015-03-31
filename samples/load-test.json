@@ -1,0 +1,13 @@
+{
+  "multiple": [
+    {
+      "merge": true,
+      "name":"color",
+      "path": ["samples/colo*.json"]
+    }, {
+      "merge": false,
+      "name":"place",
+      "path": ["samples/country.json", "samples/city.json"]
+    }
+  ]
+}
