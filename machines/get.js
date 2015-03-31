@@ -18,6 +18,11 @@ module.exports = {
       example: false,
       description: "if false, the name of the files are the keys else it'll merge at the top",
       required: false
+    },
+    nomethod: {
+      example: false,
+      description: "if true, don't attach method 'query' and 'all'",
+      required: false
     }
   },
 
@@ -34,7 +39,7 @@ module.exports = {
 
   fn: function (inputs,exits) {
     require('../lib/helper.js')
-      .getFiles(inputs.path, inputs.merge||false, exits.success);
+      .getFiles(inputs.path, inputs.merge||false, inputs.nomethod||false, exits.success);
   },
 
 };

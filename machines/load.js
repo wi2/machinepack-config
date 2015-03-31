@@ -27,7 +27,7 @@ module.exports = {
   fn: function (inputs,exits) {
     var machine = require('machine');
     var get = machine.build(require('./get'));
-    get({path:inputs.path, merge:true}).exec(function(err, data){
+    get({path:inputs.path, merge:true, nomethod: true}).exec(function(err, data){
       if(data.multiple){
         var multiple = machine.build(require('./multiple'));
         multiple({schema: data.multiple}).exec(function(err, result){
