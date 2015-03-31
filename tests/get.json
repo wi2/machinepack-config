@@ -3,7 +3,7 @@
   "expectations": [
     {
       "using": {
-      	"path": "tests/get.json"
+        "path": "tests/get.json"
       },
       "outcome": "success"
     }

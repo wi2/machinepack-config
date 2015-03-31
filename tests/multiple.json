@@ -3,17 +3,17 @@
   "expectations": [
     {
       "using": {
-      	"schema": [
-      		{
-      			"path" : ["tests/*.json"],
-      			"name" : "test"
-      		},
-      		{
-      			"path" : ["tests/*.json"],
-      			"name" : "merged",
-      			"merge": true
-      		}
-      	]
+        "schema": [
+          {
+            "path" : ["tests/*.json"],
+            "name" : "test"
+          },
+          {
+            "path" : ["tests/*.json"],
+            "name" : "merged",
+            "merge": true
+          }
+        ]
 
       },
       "outcome": "success"
