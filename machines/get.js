@@ -21,7 +21,12 @@ module.exports = {
     },
     nomethod: {
       example: false,
-      description: "if true, don't attach method 'query' and 'all'",
+      description: "if true, don't attach method 'get', 'query' and 'all'",
+      required: false
+    },
+    freeze: {
+      example: false,
+      description: "if true, freeze config",
       required: false
     }
   },
@@ -39,7 +44,12 @@ module.exports = {
 
   fn: function (inputs,exits) {
     require('../lib/helper.js')
-      .getFiles(inputs.path, inputs.merge||false, inputs.nomethod||false, exits.success);
+      .getFiles(
+        inputs.path,
+        inputs.merge||false,
+        inputs.nomethod||false,
+        inputs.freeze||false,
+        exits.success);
   },
 
 };

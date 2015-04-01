@@ -11,6 +11,11 @@ module.exports = {
       typeclass: '*',
       description: "An array of of path json config (see tests/test.js)",
       required: true
+    },
+    freeze: {
+      example: false,
+      description: "if true, freeze config",
+      required: false
     }
   },
 
@@ -27,7 +32,7 @@ module.exports = {
 
   fn: function (inputs,exits) {
     require('../lib/helper.js')
-      .iterate(inputs.schema, {}, exits.success);
+      .iterate(inputs.schema, {}, inputs.freeze||false, exits.success);
   },
 
 };

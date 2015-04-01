@@ -5,7 +5,7 @@ var should = require('should')
 
 describe('Helper', function(){
   it('getfiles', function(done){
-    h.getFiles(["samples/ip*.json", "samples/city.json"], true, false, function(data){
+    h.getFiles(["samples/ip*.json", "samples/city.json"], true, false, true, function(data){
       console.log("3 helpers: ", data);
       // console.log("==>", data.get(0, 'city'));
       // console.log("==>", data.get(5, 'city'));
@@ -17,7 +17,7 @@ describe('Helper', function(){
   });
 
   it('getfiles', function(done){
-    h.getFiles(["samples/col*.json", "samples/city.json"], false, false, function(data){
+    h.getFiles(["samples/col*.json", "samples/city.json"], false, false, false, function(data){
       // console.log("==>", data.get('city',50));
       should (data.get('city',50, 'id')).be.equal(51)
       should (data.get('city',50, 'id')).not.be.equal('51')
