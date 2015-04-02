@@ -1,7 +1,7 @@
 {
   "name": "machinepack-config",
-  "version": "0.1.1",
-  "description": "A simple load config",
+  "version": "0.1.2",
+  "description": "A simple load config (json, xml, csv)",
   "scripts": {
     "test": "mocha tests/test.js"
   },
