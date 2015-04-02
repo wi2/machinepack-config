@@ -16,7 +16,8 @@
     "json-query": "^1.4.0",
     "lodash": "^3.6.0",
     "machine": "^3.0.0",
-    "vinyl-fs": "^1.0.0"
+    "vinyl-fs": "^1.0.0",
+    "xml2js": "^0.4.6"
   },
   "devDependencies": {
     "mocha": "^2.2.1",

@@ -94,3 +94,28 @@ describe('load', function(){
   });
 });
 
+
+describe('get', function(){
+  it('get all xml, json and merge it', function(done){
+     conf.get({merge: true, path: ["samples/*.xml", "samples/*.json"]})
+      .exec(function (err, data) {
+        // console.log("==>", data.get(25,'job'));
+        should( data.get('$schema') ).be.equal('http://json-schema.org/draft-04/schema#');
+        should( data.get(25, 'job') ).be.equal('Mechanical Systems Engineer');
+        done()
+      });
+  });
+
+  it("get all xml and json and don't merge", function(done){
+     conf.get({path: ["samples/*.*"]})
+      .exec(function (err, data) {
+        // console.log("==>", data.get('jsonschema' ,'$schema'));
+        should( data.get('jsonschema' ,'$schema') ).be.equal('http://json-schema.org/draft-04/schema#');
+        should( data.get('country', 24, 'code') ).be.equal('SE');
+        should( data.get('country', 24) ).be.type('object');
+
+
+        done()
+      });
+  });
+});
