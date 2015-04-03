@@ -6,7 +6,7 @@ var should = require('should')
 describe('Helper', function(){
   it('getfiles', function(done){
     h.getFiles(["samples/ip*.json", "samples/city.json"], true, false, true, function(data){
-      console.log("4 methods:\n ", data);
+      console.log("8 methods:\n ", data);
       // console.log("==>", data.get(0, 'city'));
       // console.log("==>", data.get(5, 'city'));
       should(data).be.type('object');

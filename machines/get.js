@@ -21,7 +21,7 @@ module.exports = {
     },
     nomethod: {
       example: false,
-      description: "if true, don't attach method 'get', 'query' and 'all'",
+      description: "if true, don't attach method 'get', 'all' and some other lodash method (keys, findKeys, ...)",
       required: false
     },
     freeze: {
