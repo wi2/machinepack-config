@@ -114,12 +114,92 @@ describe('get', function(){
         should( data.get('jsonschema', 'root', 'name') ).be.equal('employees');
         should( data.get('country', 24, 'code') ).be.equal('SE');
         should( data.get('country', 24) ).be.type('object');
+
+        should( data.has('country') ).be.equal(true);
+        should( data.has('code') ).be.equal(false);
+        should( data.has('country', 24,'code') ).be.equal(true);
+        should( data.has('country', '0','code') ).be.equal(true);
+
+
+        should( data.findKey('jsonschema','name') ).be.equal('root');
+        should( data.findKey('country','code') ).be.equal('0');
+
+        should( data.findLastKey('jsonschema','name') ).be.equal('root');
+        should( data.findLastKey('country','code') ).be.equal('99');
+
+
         var se = data.ass({test:'yep'},'country', 24);
         should( se.test ).be.equal('yep');
         should( se.code ).be.equal('SE');
+        done()
+      });
+  });
+});
 
+
+
+describe('methods', function(){
+
+  it("get method", function(done){
+     conf.get({path: ["samples/*.*"]})
+      .exec(function (err, data) {
+        // console.log(data);
+        // console.log("==>", data.get('jsonschema', 'root', 'name'));
+        should( data.get('jsonschema', 'root', 'name') ).be.equal('employees');
+        should( data.get('country', 24, 'code') ).be.equal('SE');
+        should( data.get('country', 24) ).be.type('object');
+        done()
+      });
+  });
+
+  it("has method", function(done){
+     conf.get({path: ["samples/*.*"]})
+      .exec(function (err, data) {
+
+        should( data.has('country') ).be.equal(true);
+        should( data.has('code') ).be.equal(false);
+        should( data.has('country', 24,'code') ).be.equal(true);
+        should( data.has('country', '0','code') ).be.equal(true);
+        done()
+      });
+  });
+
+  it("findKey & findLastKey method", function(done){
+     conf.get({path: ["samples/*.*"]})
+      .exec(function (err, data) {
+
+        should( data.findKey('jsonschema','name') ).be.equal('root');
+        should( data.findKey('country','code') ).be.equal('0');
+
+        should( data.findLastKey('jsonschema','name') ).be.equal('root');
+        should( data.findLastKey('country','code') ).be.equal('99');
+        done()
+      });
+  });
+
+  it("ass method : return an extended clone", function(done){
+     conf.get({path: ["samples/*.*"]})
+      .exec(function (err, data) {
+
+        var se = data.ass({test:'yep'},'country', 24);
+        should( se.test ).be.equal('yep');
+        should( se.code ).be.equal('SE');
+        done()
+      });
+  });
+
+  it("keys and values method", function(done){
+     conf.get({path: ["samples/*.*"]})
+      .exec(function (err, data) {
+        should( data.values('country').length ).be.equal(10);
+        should( data.keys('country').length ).be.equal(10);
+
+        should( data.values('country', 0).length ).be.equal(100);
+        should( data.keys('country', 0).length ).be.equal(100);
 
         done()
       });
   });
 });
+
+
