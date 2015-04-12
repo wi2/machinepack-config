@@ -39,6 +39,16 @@ module.exports = {
     },
     success: {
       description: 'Done.',
+      example: {
+        all: Function,
+        get: Function,
+        ass: Function,
+        has: Function,
+        findKey: Function,
+        findLastKey: Function,
+        keys: Function,
+        values: Function
+      }
     }
   },
 
