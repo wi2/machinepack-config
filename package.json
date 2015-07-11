@@ -1,6 +1,6 @@
 {
   "name": "machinepack-config",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "A simple load config (with multiple json, xml or csv file)",
   "scripts": {
     "test": "mocha tests/test.js && node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
