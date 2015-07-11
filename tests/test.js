@@ -39,6 +39,7 @@ describe('get', function(){
   it("get all json and don't merge", function(done){
      conf.get({path: ["samples/*.json"]})
       .exec(function (err, data) {
+        // console.log(err, data);
         // console.log("==>", data.get('country', 24));
         should( data.get('country', 24) ).be.type('object');
         should( data.get('country', 24, 'code') ).be.equal('SE');
